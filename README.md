@@ -19,6 +19,10 @@
   - [Expression du besoin client](#expression-du-besoin-client)
 - [Technologies utilisées](#technologies-utilisées)
 - [Captures d'écran](#captures-décran)
+- [Pour commencer](#pour-commencer)
+  - [Exigences](#exigences)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
 - [Participants](#participants)
 
 ## Aperçu du projet
@@ -48,6 +52,23 @@ Pour éviter les pannes et la condensation, il est important de pouvoir mesurer,
 |                Tableau de bord                |
 | :-------------------------------------------: |
 | ![Aperçu du tableau de bord](./dashboard.png) |
+
+## Pour commencer
+
+### Exigences
+
+- [WampServer](https://www.wampserver.com/) (ou une alternative pour le développement web)
+
+### Installation
+
+1. Cloner le dépôt dans le dossier root de votre serveur web (`www` pour WampServer) :
+```
+git clone https://github.com/alexwauquier/projet-iot-supervision-salle-serveurs.git
+```
+
+### Configuration
+
+Vous pouvez changer les informations de connexion à la base de données dans le fichier `db.php` se trouvant dans le dossier `config`.
 
 ## Participants
 
